@@ -1,0 +1,1 @@
+javap -c -s -v -l Demo.class
