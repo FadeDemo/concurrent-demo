@@ -1,6 +1,7 @@
 package org.fade.demo.concurrent.container;
 
-import java.util.List;
+import com.google.common.collect.Lists;
+
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -32,7 +33,7 @@ public class CopyOnWriteArrayListDemo {
         // 使用 size 方法获取列表大小
         System.out.println("列表大小为：" + list.size());
         // 使用 removeAll 方法删除指定集合中所有出现的元素
-        result = list.removeAll(List.of("Java", "Golang"));
+        result = list.removeAll(Lists.newArrayList("Java", "Golang"));
         System.out.println("批量删除结果：" + result);
         System.out.println("列表批量删除元素后为：" + list);
         // 使用 clear 方法清空列表中所有元素
