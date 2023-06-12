@@ -1,4 +1,4 @@
-package org.fade.demo.concurrent;
+package org.fade.demo.concurrent.tlocal;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;
